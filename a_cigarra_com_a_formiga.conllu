@@ -46,6 +46,7 @@
 # text_por_source = Stradelli (1928:736)
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Umbaú	mbaú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	ana	ana	PART	PFV	Aspect=Perf	1	advmod	_	SpaceAfter=No|TokenRange=6:9
 3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=9:10
@@ -66,6 +67,7 @@
 # text_por_source = Stradelli (1928:736)
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Upurasí	purasí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	ara	ara	NOUN	N	Number=Sing	1	obl	_	TokenRange=8:11
 3	pukusawa	pukusawa	ADP	ADP	AdpType=Post	2	case	_	SpaceAfter=No|TokenRange=12:20

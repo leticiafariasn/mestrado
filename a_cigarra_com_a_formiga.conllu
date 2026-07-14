@@ -142,13 +142,14 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	amana	amana	NOUN	N	Number=Sing	3	nmod:poss	_	TokenRange=6:11
-3	ara	ara	NOUN	N	Number=Sing	1	obj	_	TokenRange=12:15
-4	supí	supí	PART	CERT	PartType=Mod	1	advmod	_	TokenRange=16:20
-5	rupiára	supiára	NOUN	N	Number=Sing|Rel=Cont	6	nmod:poss	_	TokenRange=21:28
+3	ara	ara	NOUN	N	Number=Sing	1	nsubj	_	TokenRange=12:15
+4	supí	supí	PART	CERT	PartType=Mod	3	amod	_	TokenRange=16:20
+5	rupiára	supiára	NOUN	N	Number=Sing|Rel=Cont	4	fixed	_	TokenRange=21:28
 6	irusanga	irusanga	NOUN	N	Number=Sing	1	obj	_	TokenRange=29:37
-7	reté	reté	ADV	ADVS	AdvType=Deg	1	advmod	_	SpaceAfter=No|TokenRange=38:42
+7	reté	reté	ADV	ADVS	AdvType=Deg	6	advmod	_	SpaceAfter=No|TokenRange=38:42
 8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=42:43
 
 # sent_id = Costa1909:1:8:8
@@ -164,10 +165,11 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Amana	amana	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:5
 2	wari	wari	VERB	V	VerbForm=Inf	0	root	_	TokenRange=6:10
 3	muíri	muíri	DET	INDQ	PronType=Ind	4	det	_	TokenRange=11:16
-4	ara	ara	NOUN	N	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=17:20
+4	ara	ara	NOUN	N	Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=17:20
 5	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=20:21
 6	nhaaresé	nhaaresé	ADV	ADVJ	AdvType=Cau	8	advmod	_	TokenRange=22:30
 7	nti awá	nti awá	PRON	IND	PronType=Ind	8	nsubj	_	TokenRange=31:38
@@ -208,11 +210,12 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	2	advmod	_	TokenRange=0:2
 2	urikú	rikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=3:8
-3	manungara	manungara	PRON	IND	PronType=Ind	4	nsubj	_	TokenRange=9:18
-4	umbaú	mbaú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis	_	TokenRange=19:24
-5	arama	arama	ADP	ADP	AdpType=Post	2	case	_	SpaceAfter=No|TokenRange=25:30
+3	manungara	manungara	PRON	IND	PronType=Ind	2	obj	_	TokenRange=9:18
+4	umbaú	mbaú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	acl	_	TokenRange=19:24
+5	arama	arama	ADP	ADP	AdpType=Post	4	mark	_	SpaceAfter=No|TokenRange=25:30
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=30:31
 
 # sent_id = Costa1909:1:11:11

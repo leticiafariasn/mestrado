@@ -231,6 +231,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Utĩ	tĩ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:3
 2	resewara	resewara	ADP	ADP	AdpType=Post|Rel=Cont	1	case	_	TokenRange=4:12
 3	uyururéu	yururéu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=13:21

@@ -907,13 +907,13 @@
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
 1	Yepé	yepé	DET	ART	Definite=Ind|PronType=Art	2	det	_	TokenRange=0:4
-2	í	í	NOUN	N	Number=Sing	7	nmod:poss	_	SpaceAfter=No|TokenRange=5:6
-3	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=6:7
-4	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	11	advmod	_	SpaceAfter=No|TokenRange=8:11
-5	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=11:12
+2	í	í	NOUN	N	Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=5:6
+3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=6:7
+4	paá	paá	PART	RPRT	Evident=Nfh|PartType=Mod	9	advmod	_	SpaceAfter=No|TokenRange=8:11
+5	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=11:12
 6	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	7	det	_	TokenRange=13:17
-7	mirawasú	mirawasú	NOUN	N	Number=Sing	11	nsubj	_	SpaceAfter=No|TokenRange=18:26
-8	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=26:27
+7	mirawasú	mirawasú	NOUN	N	Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=18:26
+8	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=26:27
 9	turusú	turusú	ADJ	A	_	11	_	_	SpaceAfter=No|TokenRange=28:34
 10	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=34:35
 11	kirimbawa	kirimbawa	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=36:45

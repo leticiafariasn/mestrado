@@ -232,17 +232,17 @@
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
 # reviewer1 =  Letícia Farias Nunes
-1	Utĩ	tĩ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:3
-2	resewara	resewara	ADP	ADP	AdpType=Post|Rel=Cont	1	case	_	TokenRange=4:12
-3	uyururéu	yururéu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=13:21
-4	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=21:22
+1	Utĩ	tĩ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	advcl	_	TokenRange=0:3
+2	resewara	resewara	ADP	ADP	AdpType=Post|Rel=Cont	3	case	_	TokenRange=4:12
+3	uyururéu	yururéu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	xcomp	_	SpaceAfter=No|TokenRange=13:21
+4	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=21:22
 5-6	kiririntu	_	_	_	_	_	_	_	TokenRange=23:32
-5	kirirí	kirirí	VERB	V	VerbForm=Inf	3	parataxis	_	_
+5	kirirí	kirirí	VERB	V	VerbForm=Inf	7	advcl	_	_
 6	ntu	ntu	ADV	ADV	Clitic=Yes	5	advmod	_	_
-7	upurará	purará	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	parataxis	_	TokenRange=33:40
-8	uikupukú	ikupukú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	parataxis	_	TokenRange=41:49
-9	rupí	rupí	ADP	ADP	AdpType=Post	1	case	_	SpaceAfter=No|TokenRange=50:54
-10	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=54:55
+7	upurará	purará	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=33:40
+8	uikupukú	ikupukú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	7	advcl	_	TokenRange=41:49
+9	rupí	rupí	ADP	ADP	AdpType=Post	8	case	_	SpaceAfter=No|TokenRange=50:54
+10	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|TokenRange=54:55
 
 # sent_id = Costa1909:1:12:12
 # text = Umanú putari ramé wana, ukamirika i marika, nheẽ: — Tiana apitasuka kwáu yumasí.
@@ -257,6 +257,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Umanú	manú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	6	advcl	_	TokenRange=0:5
 2	putari	putari	AUX	AUXN	VerbForm=Inf	1	aux	_	TokenRange=6:12
 3	ramé	ramé	SCONJ	SCONJ	_	1	mark	_	TokenRange=13:17
@@ -270,7 +271,7 @@
 11	:	:	PUNCT	PUNCT	_	14	punct	_	TokenRange=48:49
 12	—	—	PUNCT	PUNCT	_	14	punct	_	TokenRange=50:51
 13	Tiana	tiana	ADV	ADVS	AdvType=Deg	14	advmod	_	TokenRange=52:57
-14	apitasuka	pitasuka	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	10	parataxis	_	TokenRange=58:67
+14	apitasuka	pitasuka	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	10	ccomp	_	TokenRange=58:67
 15	kwáu	kwáu	AUX	AUXN	VerbForm=Inf	14	aux	_	TokenRange=68:72
 16	yumasí	yumasí	NOUN	N	Number=Sing	14	obj	_	SpaceAfter=No|TokenRange=73:79
 17	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|TokenRange=79:80
@@ -288,21 +289,22 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	2	advmod	_	TokenRange=0:2
 2	apurakí	purakí	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=3:10
 3	putari	putari	AUX	AUXN	VerbForm=Inf	2	aux	_	TokenRange=11:17
-4	kurasí	kurasí	NOUN	N	Number=Sing	2	obj	_	TokenRange=18:24
+4	kurasí	kurasí	NOUN	N	Number=Sing	5	nmod:poss	_	TokenRange=18:24
 5	ara	ara	NOUN	N	Number=Sing	2	obl	_	TokenRange=25:28
 6	ramé	ramé	ADP	ADP	AdpType=Post	5	case	_	SpaceAfter=No|TokenRange=29:33
-7	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=33:34
-8	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	12	advmod	_	TokenRange=35:37
-9	maã	maã	DET	IND	PronType=Ind	10	det	_	TokenRange=38:41
-10	pusanga	pusanga	NOUN	N	Number=Sing	2	obl	_	TokenRange=42:49
+7	,	,	PUNCT	PUNCT	_	10	punct	_	TokenRange=33:34
+8	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	10	advmod	_	TokenRange=35:37
+9	maã	maã	DET	IND	PronType=Ind	2	det	_	TokenRange=38:41
+10	pusanga	pusanga	NOUN	N	Number=Sing	2	parataxis	_	TokenRange=42:49
 11	kuíri	kuíri	ADV	ADVT	AdvType=Tim	12	advmod	_	TokenRange=50:55
 12	ayururéu	yururéu	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	TokenRange=56:64
 13	ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	15	advmod	_	TokenRange=65:67
-14	arama	arama	ADP	ADP	AdpType=Post	10	case	_	TokenRange=68:73
-15	amanú	manú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	12	parataxis	_	SpaceAfter=No|TokenRange=74:79
+14	arama	arama	ADP	ADP	AdpType=Post	15	mark	_	TokenRange=68:73
+15	amanú	manú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	12	advcl	_	SpaceAfter=No|TokenRange=74:79
 16	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=79:80
 
 # sent_id = Costa1909:1:14:14
@@ -318,6 +320,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Awá	awá	PRON	INT	PronType=Int	4	obl	_	TokenRange=0:3
 2	suí	suí	ADP	ADP	AdpType=Post	1	case	_	TokenRange=4:7
 3	taá	taá	PART	CQ	PartType=Int	4	advmod	_	TokenRange=8:11
@@ -337,6 +340,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Se	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:2
 2	anama-itá	anama	NOUN	N	Number=Plur	4	nsubj	_	TokenRange=3:12
 3	upainhẽ	upainhẽ	DET	TOT	PronType=Tot	2	det	_	TokenRange=13:20
@@ -358,9 +362,10 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Upainhẽ	upainhẽ	PRON	TOT	PronType=Tot	2	nsubj	_	TokenRange=0:7
 2	unheengari	nheengari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=8:18
-3	kurasí	kurasí	NOUN	N	Number=Sing	2	obj	_	TokenRange=19:25
+3	kurasí	kurasí	NOUN	N	Number=Sing	4	nmod:poss	_	TokenRange=19:25
 4	ara	ara	NOUN	N	Number=Sing	2	obl	_	TokenRange=26:29
 5	pukusawa	pukusawa	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=30:38
 6	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=38:39
@@ -371,7 +376,7 @@
 11	,	,	PUNCT	PUNCT	_	12	punct	_	TokenRange=67:68
 12	urirí	rirí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	8	parataxis	_	TokenRange=69:74
 13	páu	páu	PART	TOTAL	Aspect=Compl	12	advmod	_	TokenRange=75:78
-14	aintá	aintá	PRON	PRON	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	12	obj	_	TokenRange=79:84
+14	aintá	aintá	PRON	PRON	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	TokenRange=79:84
 15	uikú	ikú	AUX	AUXFS	Mood=Ind|VerbForm=Fin	12	aux	_	SpaceAfter=No|TokenRange=85:89
 16	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=89:90
 
@@ -388,6 +393,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 =  Letícia Farias Nunes
 1	Ukirirí	kirirí	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	umanduári	manduári	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=8:17
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=17:18
@@ -405,15 +411,16 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
-1	Kupukú	kupukú	ADV	ADVA	AdvType=Man	4	advmod	_	TokenRange=0:6
-2	xinga	xinga	ADV	ADVS	AdvType=Deg	4	obl	_	TokenRange=7:12
-3	riré	riré	ADP	ADP	AdpType=Post	2	case	_	TokenRange=13:17
+# reviewer1 =  Letícia Farias Nunes
+1	Kupukú	kupukú	ADV	ADVA	AdvType=Man	4	obl	_	TokenRange=0:6
+2	xinga	xinga	ADV	ADVS	AdvType=Deg	1	advmod	_	TokenRange=7:12
+3	riré	riré	ADP	ADP	AdpType=Post	1	case	_	TokenRange=13:17
 4	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=18:23
-5	:	:	PUNCT	PUNCT	_	4	punct	_	TokenRange=23:24
-6	—	—	PUNCT	PUNCT	_	4	punct	_	TokenRange=25:26
-7	Ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	4	advmod	_	TokenRange=27:29
+5	:	:	PUNCT	PUNCT	_	9	punct	_	TokenRange=23:24
+6	—	—	PUNCT	PUNCT	_	9	punct	_	TokenRange=25:26
+7	Ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	9	advmod	_	TokenRange=27:29
 8	maã	maã	DET	IND	PronType=Ind	9	det	_	TokenRange=30:33
-9	pusanga	pusanga	NOUN	N	Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=34:41
+9	pusanga	pusanga	NOUN	N	Number=Sing	4	ccomp	_	SpaceAfter=No|TokenRange=34:41
 10	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=41:42
 
 # sent_id = Costa1909:1:19:19

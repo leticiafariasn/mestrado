@@ -13,10 +13,12 @@
 # text_annotator = Matheus Anacleto Gomes
 # reviewer1 =  Letícia Farias Nunes
 # reviewer2 = Dominick Maia Alexandre
+# text_eng = TODO
+# inputline = Daridarí unheengari reté/advs kurasí ara pukusawa/adp.
 1	Daridarí	daridarí	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:8
 2	unheengari	nheengari	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=9:19
 3	reté	reté	ADV	ADVS	AdvType=Deg	2	advmod	_	TokenRange=20:24
-4	kurasí	kurasí	NOUN	N	Number=Sing	2	nmod:poss	_	TokenRange=25:31
+4	kurasí	kurasí	NOUN	N	Number=Sing	5	nmod:poss	_	TokenRange=25:31
 5	ara	ara	NOUN	N	Number=Sing	2	obl	_	TokenRange=32:35
 6	pukusawa	pukusawa	ADP	ADP	AdpType=Post	5	case	_	SpaceAfter=No|TokenRange=36:44
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=44:45
@@ -31,9 +33,11 @@
 # text_por_source = Stradelli (1928:736)
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
-# text_annotator = Matheus Anacleto Gomes
-# reviewer1 =  Letícia Farias Nunes
+# text_annotator = Leonel Figueiredo de Alencar
+# reviewer1 = Letícia Farias Nunes
 # reviewer2 = Dominick Maia Alexandre
+# text_eng = TODO
+# inputline = Umunhã murasí ara yawé-yawé/indq.
 1	Umunhã	munhã	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:6
 2	murasí	murasí	NOUN	N	Number=Sing	1	obj	_	TokenRange=7:13
 3	ara	ara	NOUN	N	Number=Sing	1	obl	_	TokenRange=14:17
@@ -50,9 +54,11 @@
 # text_por_source = Stradelli (1928:736)
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
-# text_annotator = Matheus Anacleto Gomes
-# reviewer1 =  Letícia Farias Nunes
+# text_annotator = Leonel Figueiredo de Alencar
+# reviewer1 = Letícia Farias Nunes
 # reviewer2 = Dominick Maia Alexandre
+# text_eng = TODO
+# inputline = Umbaú ana, uú páu/total ana irumuára-itá irumu/adp.
 1	Umbaú	mbaú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	ana	ana	PART	PFV	Aspect=Perf	1	advmod	_	SpaceAfter=No|TokenRange=6:9
 3	,	,	PUNCT	PUNCT	_	4	punct	_	TokenRange=9:10
@@ -76,11 +82,12 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Dominick Maia Alexandre
 1	Upurasé	purasé	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:7
 2	ara	ara	NOUN	N	Number=Sing	1	obl	_	TokenRange=8:11
 3	pukusawa	pukusawa	ADP	ADP	AdpType=Post	2	case	_	SpaceAfter=No|TokenRange=12:20
-4	,	,	PUNCT	PUNCT	_	1	punct	_	TokenRange=20:21
-5	pituna	pituna	NOUN	N	Number=Sing	1	obl	_	TokenRange=22:28
+4	,	,	PUNCT	PUNCT	_	5	punct	_	TokenRange=20:21
+5	pituna	pituna	NOUN	N	Number=Sing	2	conj	_	TokenRange=22:28
 6	pukusawa	pukusawa	ADP	ADP	AdpType=Post	5	case	_	SpaceAfter=No|TokenRange=29:37
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=37:38
 
@@ -94,13 +101,15 @@
 # text_por_source = Stradelli (1928:736)
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
-# text_annotator = Matheus Anacleto Gomes
-# reviewer1 =  Letícia Farias Nunes
+# text_annotator = Leonel Figueiredo de Alencar
+# reviewer1 = Letícia Farias Nunes
 # reviewer2 = Maria Edineuda Teixeira Pinto Nascimento
-# reviewer3 = Dominick Maia Alexandre 
+# reviewer3 = Dominick Maia Alexandre
+# text_eng = TODO
+# inputline = Umbaú ana upainhẽ urikú waá/rel.
 1	Umbaú	mbaú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	ana	ana	PART	PFV	Aspect=Perf	1	advmod	_	TokenRange=6:9
-3	upainhẽ	upainhẽ	PRON	TOT	PronType=Tot	4	nsubj	_	TokenRange=10:17
+3	upainhẽ	upainhẽ	PRON	TOT	PronType=Tot	1	obj	_	TokenRange=10:17
 4	urikú	rikú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	3	acl:relcl	_	TokenRange=18:23
 5	waá	waá	PRON	REL	Number=Sing|PronType=Rel	4	obj	_	SpaceAfter=No|TokenRange=24:27
 6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=27:28
@@ -121,8 +130,8 @@
 # reviewer1 =  Letícia Farias Nunes
 # reviewer2 = Maria Edineuda Teixeira Pinto Nascimento
 # reviewer3 = Dominick Maia Alexandre 
-1	Nẽ	nẽ	PART	NEG	PartType=Neg|Polarity=Neg	3	advmod	_	TokenRange=0:2
-2	manungara	manungara	PRON	IND	PronType=Ind	3	nsubj	_	TokenRange=3:12
+1	Nẽ	nẽ	PART	NEG	PartType=Neg|Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	manungara	manungara	PRON	IND	PronType=Ind	3	obj	_	TokenRange=3:12
 3	umungaturú	mungaturú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=13:23
 4-5	ariréwara	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=24:33
 4	ariré	ariré	ADV	ADVT	AdvType=Tim	3	obl	_	_
@@ -130,7 +139,7 @@
 6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=33:34
 
 # sent_id = Costa1909:1:7:7
-# text = Usika amana ara supí rupiára irusanga reté.
+# text = Usika amana ara supí rupiára, irusanga reté.
 # text_orig = Ucica amana ara çupi rupiára, iruçanga reté.
 # text_source = p. 165
 # text_sec = U-cica amana ara supi rupiara irusanga reté.
@@ -138,19 +147,21 @@
 # text_por = Chega o tempo da chuva verdadeiro, por isso muito frio.
 # text_por_source = Stradelli (1928:736)
 # text_eng = TODO
-# inputline = Usika amana ara supí/cert rupiára irusanga/n reté/advs.
+# inputline = Usika amana ara supí/a rupiára, irusanga/a reté/advs.
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
-# text_annotator = Matheus Anacleto Gomes
-# reviewer1 =  Letícia Farias Nunes
+# text_annotator = Leonel Figueiredo de Alencar
+# reviewer1 = Letícia Farias Nunes
+# reviewer2 = Dominick Maia Alexandre
 1	Usika	sika	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:5
 2	amana	amana	NOUN	N	Number=Sing	3	nmod:poss	_	TokenRange=6:11
 3	ara	ara	NOUN	N	Number=Sing	1	nsubj	_	TokenRange=12:15
-4	supí	supí	PART	CERT	PartType=Mod	3	amod	_	TokenRange=16:20
-5	rupiára	supiára	NOUN	N	Number=Sing|Rel=Cont	4	fixed	_	TokenRange=21:28
-6	irusanga	irusanga	NOUN	N	Number=Sing	1	obj	_	TokenRange=29:37
-7	reté	reté	ADV	ADVS	AdvType=Deg	6	advmod	_	SpaceAfter=No|TokenRange=38:42
-8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=42:43
+4	supí	supí	ADJ	A	_	3	amod	_	TokenRange=16:20
+5	rupiára	supiára	NOUN	N	Number=Sing|Rel=Cont	4	fixed	_	SpaceAfter=No|TokenRange=21:28
+6	,	,	PUNCT	PUNCT	_	7	punct	_	TokenRange=28:29
+7	irusanga	irusanga	ADJ	A	_	1	parataxis	_	TokenRange=30:38
+8	reté	reté	ADV	ADVS	AdvType=Deg	7	advmod	_	SpaceAfter=No|TokenRange=39:43
+9	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=43:44
 
 # sent_id = Costa1909:1:8:8
 # text = Amana wari muíri ara, nhaaresé nti awá umunhã kwáu muraikí.

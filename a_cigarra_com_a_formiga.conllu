@@ -925,10 +925,10 @@
 6	yepé	yepé	DET	ART	Definite=Ind|PronType=Art	7	det	_	TokenRange=13:17
 7	mirawasú	mirawasú	NOUN	N	Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=18:26
 8	,	,	PUNCT	PUNCT	_	9	punct	_	TokenRange=26:27
-9	turusú	turusú	ADJ	A	_	11	_	_	SpaceAfter=No|TokenRange=28:34
+9	turusú	turusú	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=28:34
 10	,	,	PUNCT	PUNCT	_	11	punct	_	TokenRange=34:35
-11	kirimbawa	kirimbawa	ADJ	A	_	0	root	_	SpaceAfter=No|TokenRange=36:45
-12	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|TokenRange=45:46
+11	kirimbawa	kirimbawa	ADJ	A	_	9	conj	_	SpaceAfter=No|TokenRange=36:45
+12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|TokenRange=45:46
 
 # sent_id = Costa1909:2:2:40
 # text = Yepé ara upé unheẽ: — Aserviri putari yepé muruixawa turusú piri, kirimbawa piri upainhẽ amú-itá suí kwá mundo upé.

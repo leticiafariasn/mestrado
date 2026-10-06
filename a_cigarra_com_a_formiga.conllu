@@ -976,6 +976,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Ariré	ariré	ADV	ADVT	AdvType=Tim	4	advmod	_	TokenRange=0:5
 2	usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	4	aux	_	TokenRange=6:9
 3	ana	ana	PART	PFV	Aspect=Perf	4	advmod	_	TokenRange=10:13
@@ -1240,6 +1241,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Muruixawa	muruixawa	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:9
 2	usuaxara	suaxara	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:18
 3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=18:19
@@ -1260,16 +1262,17 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Mirawasú	mirawasú	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:8
 2	upurandú	purandú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=9:17
 3	:	:	PUNCT	PUNCT	_	8	punct	_	TokenRange=17:18
 4	—	—	PUNCT	PUNCT	_	8	punct	_	TokenRange=19:20
-5	Ramé	ramé	SCONJ	SCONJ	_	8	mark	_	SpaceAfter=No|TokenRange=21:25
+5	Ramé	ramé	SCONJ	SCONJ	_	8	advmod	_	SpaceAfter=No|TokenRange=21:25
 6	,	,	PUNCT	PUNCT	_	8	punct	_	TokenRange=25:26
 7	indé	indé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	TokenRange=27:31
-8	resikié	sikié	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	2	advcl	_	TokenRange=32:39
-9	Yuruparí	yuruparí	PROPN	PROPN	_	8	obj	_	SpaceAfter=No|TokenRange=40:48
-10	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=48:49
+8	resikié	sikié	VERB	V	Mood=Imp,Ind|Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	TokenRange=32:39
+9	Yuruparí	yuruparí	PROPN	PROPN	_	8	obl	_	SpaceAfter=No|TokenRange=40:48
+10	?	?	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|TokenRange=48:49
 
 # sent_id = Costa1909:2:16:54
 # text = Aé kirimbawa piri ne suí?
@@ -1282,12 +1285,13 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Aé	aé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	kirimbawa	kirimbawa	ADJ	A	_	0	root	_	TokenRange=3:12
 3	piri	piri	ADV	ADVG	AdvType=Deg	2	advmod	_	TokenRange=13:17
-4	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	root	_	TokenRange=18:20
+4	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	obl	_	TokenRange=18:20
 5	suí	suí	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=21:24
-6	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=24:25
+6	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=24:25
 
 # sent_id = Costa1909:2:17:55
 # text = Muruixawa usuaxara: — Aé.
@@ -1300,11 +1304,12 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Muruixawa	muruixawa	NOUN	N	Number=Sing	2	nsubj	_	TokenRange=0:9
 2	usuaxara	suaxara	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=10:18
-3	:	:	PUNCT	PUNCT	_	2	punct	_	TokenRange=18:19
-4	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=20:21
-5	Aé	aé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No|TokenRange=22:24
+3	:	:	PUNCT	PUNCT	_	5	punct	_	TokenRange=18:19
+4	—	—	PUNCT	PUNCT	_	5	punct	_	TokenRange=20:21
+5	Aé	aé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=3|PronType=Prs	2	ccomp	_	SpaceAfter=No|TokenRange=22:24
 6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=24:25
 
 # sent_id = Costa1909:2:18:56
@@ -1318,8 +1323,9 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Asikié	sikié	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	TokenRange=0:6
-2	Yuruparí	yuruparí	PROPN	PROPN	_	1	obj	_	SpaceAfter=No|TokenRange=7:15
+2	Yuruparí	yuruparí	PROPN	PROPN	_	1	obl	_	SpaceAfter=No|TokenRange=7:15
 3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=15:16
 
 # sent_id = Costa1909:2:19:57
@@ -1333,12 +1339,13 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Aé	aé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=0:2
 2	turusú	turusú	ADJ	A	_	0	root	_	TokenRange=3:9
 3	piri	piri	ADV	ADVG	AdvType=Deg	2	advmod	_	TokenRange=10:14
-4	ixé	ixé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=1|PronType=Prs	2	root	_	TokenRange=15:18
+4	ixé	ixé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=1|PronType=Prs	2	obl	_	TokenRange=15:18
 5	suí	suí	ADP	ADP	AdpType=Post	4	case	_	SpaceAfter=No|TokenRange=19:22
-6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|TokenRange=22:23
+6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=22:23
 
 # sent_id = Costa1909:2:20:58
 # text = Aramé Mirawasú unheẽ: — Ti wana aikú putari ne irumu.
@@ -1351,6 +1358,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Aramé	aramé	ADV	ADVT	AdvType=Tim	3	advmod	_	TokenRange=0:5
 2	Mirawasú	mirawasú	NOUN	N	Number=Sing	3	nsubj	_	TokenRange=6:14
 3	unheẽ	nheẽ	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=15:20
@@ -1358,7 +1366,7 @@
 5	—	—	PUNCT	PUNCT	_	8	punct	_	TokenRange=22:23
 6	Ti	ti	PART	NEG	PartType=Neg|Polarity=Neg	8	advmod	_	TokenRange=24:26
 7	wana	wana	PART	PFV	Aspect=Perf	8	advmod	_	TokenRange=27:31
-8	aikú	ikú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	3	parataxis	_	TokenRange=32:36
+8	aikú	ikú	VERB	V	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	3	ccomp	_	TokenRange=32:36
 9	putari	putari	AUX	AUXN	VerbForm=Inf	8	aux	_	TokenRange=37:43
 10	ne	ne	PRON	PRON2	Case=Gen|Number=Sing|Person=2|PronType=Prs	8	obl	_	TokenRange=44:46
 11	irumu	irumu	ADP	ADP	AdpType=Post	10	case	_	SpaceAfter=No|TokenRange=47:52

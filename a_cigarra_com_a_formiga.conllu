@@ -1400,6 +1400,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Usú	sú	AUX	AUXFR	Mood=Ind|Person=3|VerbForm=Fin	5	aux	_	TokenRange=0:3
 2	ana	ana	PART	PFV	Aspect=Perf	5	advmod	_	TokenRange=4:7
 3	mundo	mundo	NOUN	N	Number=Sing	5	obl	_	OrigLang=pt|TokenRange=8:13
@@ -1419,9 +1420,10 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
-1	Watá	watá	VERB	V	VerbForm=Inf	0	root	_	TokenRange=0:4
-2	uikupukú	ikupukú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	parataxis	_	SpaceAfter=No|TokenRange=5:13
-3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=13:14
+# reviewer1 = Letícia Farias Nunes
+1	Watá	watá	VERB	V	VerbForm=Inf	2	xcomp	_	TokenRange=0:4
+2	uikupukú	ikupukú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=5:13
+3	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=13:14
 
 # sent_id = Costa1909:2:24:62
 # text = Upurandú upainhẽ supé mamé uikú Yuruparí.
@@ -1434,12 +1436,13 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Upurandú	purandú	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=0:8
 2	upainhẽ	upainhẽ	PRON	TOT	PronType=Tot	1	iobj	_	TokenRange=9:16
 3	supé	supé	ADP	ADP	AdpType=Post	2	case	_	TokenRange=17:21
-4	mamé	mamé	ADV	ADVLC	AdvType=Loc|PronType=Rel	1	advmod	_	TokenRange=22:26
-5	uikú	ikú	AUX	AUXFS	Mood=Ind|VerbForm=Fin	1	aux	_	TokenRange=27:31
-6	Yuruparí	yuruparí	PROPN	PROPN	_	1	obj	_	SpaceAfter=No|TokenRange=32:40
+4	mamé	mamé	ADV	ADVLC	AdvType=Loc|PronType=Rel	1	ccomp	_	TokenRange=22:26
+5	uikú	ikú	AUX	AUXFS	Mood=Ind|VerbForm=Fin	4	cop	_	TokenRange=27:31
+6	Yuruparí	yuruparí	PROPN	PROPN	_	4	nsubj	_	SpaceAfter=No|TokenRange=32:40
 7	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=40:41
 
 # sent_id = Costa1909:2:25:63
@@ -1491,6 +1494,7 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Aé	aé	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	TokenRange=0:2
 2	uikú	ikú	AUX	COP	Mood=Ind|Person=3|VerbForm=Fin	3	cop	_	TokenRange=3:7
 3	inferno	inferno	NOUN	N	Number=Sing	0	root	_	OrigLang=pt|TokenRange=8:15
@@ -1536,12 +1540,13 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Mundo	mundo	NOUN	N	Number=Sing	2	nsubj	_	OrigLang=pt|TokenRange=0:5
-2	upáu	páu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	advcl	_	TokenRange=6:10
+2	upáu	páu	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=6:10
 3	putari	putari	AUX	AUXN	VerbForm=Inf	2	aux	_	TokenRange=11:17
 4	waá	waá	SCONJ	SCONJ	_	2	mark	_	TokenRange=18:21
 5	yawé	yawé	ADV	ADVA	AdvType=Man	2	advmod	_	SpaceAfter=No|TokenRange=22:26
-6	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|TokenRange=26:27
+6	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=26:27
 
 # sent_id = Costa1909:2:29:67
 # text = Yuakanhemu upaka, umaã tumasawa kití yepé tatatinga yawé, umukanhemu kurasí.
@@ -1608,10 +1613,11 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
-1	Aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	_	_	TokenRange=0:5
-2	renundé	renundé	SCONJ	SCONJ	_	3	mark	_	TokenRange=6:13
+# reviewer1 = Letícia Farias Nunes
+1	Aintá	aintá	PRON	PRON2	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	obl	_	TokenRange=0:5
+2	renundé	renundé	SCONJ	SCONJ	_	3	case	_	TokenRange=6:13
 3	uri	yuri	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	TokenRange=14:17
-4	tuixawa	tuixawa	NOUN	N	Number=Sing|Rel=Abs	3	obj	_	SpaceAfter=No|TokenRange=18:25
+4	tuixawa	tuixawa	NOUN	N	Number=Sing|Rel=Abs	3	nsubj	_	SpaceAfter=No|TokenRange=18:25
 5	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|TokenRange=25:26
 
 # sent_id = Costa1909:2:32:70
@@ -1648,12 +1654,13 @@
 # text_orig_transcriber = Matheus Anacleto Gomes
 # text_por_modernizer = Matheus Anacleto Gomes
 # text_annotator = Matheus Anacleto Gomes
+# reviewer1 = Letícia Farias Nunes
 1	Tuixawa	tuixawa	NOUN	N	Number=Sing|Rel=Abs	2	nsubj	_	TokenRange=0:7
 2	usuaxara	suaxara	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=8:16
-3	:	:	PUNCT	PUNCT	_	2	punct	_	TokenRange=16:17
-4	—	—	PUNCT	PUNCT	_	2	punct	_	TokenRange=18:19
-5	Xe	xe	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	_	_	TokenRange=20:22
-6	Yuruparí	yuruparí	PROPN	PROPN	_	2	obj	_	SpaceAfter=No|TokenRange=23:31
+3	:	:	PUNCT	PUNCT	_	6	punct	_	TokenRange=16:17
+4	—	—	PUNCT	PUNCT	_	6	punct	_	TokenRange=18:19
+5	Xe	se	PRON	PRON2	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	TokenRange=20:22
+6	Yuruparí	yuruparí	PROPN	PROPN	_	2	ccomp	_	SpaceAfter=No|TokenRange=23:31
 7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|TokenRange=31:32
 
 # sent_id = Costa1909:2:34:72
